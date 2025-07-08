@@ -15,7 +15,7 @@ Static web frontend for Lugx Gaming. Built with HTML, CSS, and JavaScript, serve
 
 kubectl apply -f k8s/frontend-deployment.yaml
 kubectl apply -f k8s/frontend-service.yaml
-kubectl apply -f k8s/frontend-ingress.yaml
+kubectl apply -f k8s/lugx-ingress.yaml
 
 Update /etc/hosts with your Minikube IP and domain
 
